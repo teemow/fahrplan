@@ -1,0 +1,31 @@
+{
+  "name": "express-client",
+  "version": "0.0.1",
+  "description": "A simple REST API client for express",
+  "main": "./lib/express-client.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/teemow/express-client.git"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "rest"
+  ],
+  "author": "Timo Derstappen",
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-mocha-test": "*",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/teemow/express-client/issues"
+  }
+}
