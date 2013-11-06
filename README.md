@@ -1,11 +1,15 @@
-# Fokker
+# Fahrplan
 
-Yet another wrapper around the docker REST API. It has a simple API description that can be changed easily.
+A simple http client for express REST APIs. The express API should expose a `/_meta` route that responds with the app.routes json.
 
 ## Example
 
-    var Fokker = require("fokker");
-    var docker = new Fokker({host: "127.0.0.1",port: "4243"});
-    docker.container.list({all:true}, function(err, containers) {
-        console.log(containers);
+    var Fahrplan = require("fahrplan");
+    var my_api_client = new Fahrplan({host: "127.0.0.1",port: "80"});
+    // calling GET /welcome
+    fahrplan.welcome(function(err, result) {
+        console.log(result);
     });
+
+    // more info about the api client
+    console.log(fahrplan._inspect());

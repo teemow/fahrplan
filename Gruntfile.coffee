@@ -3,7 +3,7 @@ module.exports = (grunt) ->
     coffee:
       compile:
         files:
-          'lib/express-client.js': ['src/express-client.coffee']
+          'lib/fahrplan.js': ['src/fahrplan.coffee']
     mochaTest:
       options:
         reporter: 'nyan'

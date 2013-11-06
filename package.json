@@ -1,14 +1,14 @@
 {
-  "name": "express-client",
+  "name": "fahrplan",
   "version": "0.0.1",
-  "description": "A simple REST API client for express",
-  "main": "./lib/express-client.js",
+  "description": "A simple REST API client for express.",
+  "main": "./lib/fahrplan.js",
   "scripts": {
     "test": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/teemow/express-client.git"
+    "url": "git://github.com/teemow/fahrplan.git"
   },
   "keywords": [
     "express",
@@ -26,6 +26,6 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/teemow/express-client/issues"
+    "url": "https://github.com/teemow/fahrplan/issues"
   }
 }
